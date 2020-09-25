@@ -1,5 +1,6 @@
 import pexpect
 
+# ssh connect using pexpect library.
 PROMT = ["# ", ">>> ", "> ", "\$ "]
 def send_command(child, cmd):
     child.sendline(cmd)
